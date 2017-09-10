@@ -1,4 +1,6 @@
-let test = 90909;
+let a = 999;
+let b = a;
+let l = 100;
 function isPalindrome(number){
     let n = number.toString();
     for (i=0;i<Math.floor(n.length/2);i++){
@@ -6,4 +8,10 @@ function isPalindrome(number){
     }
     return true
 }
-console.log(isPalindrome(test))
+while(isPalindrome(a*b)==false){
+	if(b>=99){b=b-1;}
+	else{a=a-1
+	b=a}
+}
+console.log(a)
+console.log(b)
