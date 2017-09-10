@@ -16,15 +16,15 @@ while(a>l){
 		if(b>=l){b=b-1;}
 		else{a=a-1
 		b=a}
-}
-if(a*b>m){
-	first=a;
-	second=b;
-	m=a*b;
-}
-a=a-1
-l=b
-b=a
+	}
+	if(a*b>m){
+		first=a;
+		second=b;
+		m=a*b;
+	}
+	a=a-1
+	l=b
+	b=a
 }
 console.log(first)
 console.log(second)
